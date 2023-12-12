@@ -21,6 +21,11 @@ header nav i {
 }
 
 #start img {
-    max-width: 6"0%;
+    max-width: 60%;
 
+}
+
+#start ul li:nth-child(2)::before,
+#start ul li:nth-child(3)::before {
+    content: "-";
 }
