@@ -81,3 +81,76 @@ footer ul li a {
 footer h5 {
     font-size: 16px;
 }
+
+#list-menu {
+    display: none;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    #hamburger-menu {
+        display: none;
+    }
+
+    #list-menu {
+        display: flex;
+    }
+
+    .p-container {
+        flex-direction: row !important;
+        gap: 2em !important;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    header {
+        font-size: 24px;
+    }
+
+    section {
+        padding-block: 5em;
+    }
+
+    header h5,
+    footer h5 {
+        font-size: 35px;
+    }
+
+    footer i {
+        font-size: 25px;
+    }
+
+    footer .gap-2 {
+        gap: 1em !important;
+    }
+
+    footer ul li a {
+        transform: scale(1.2);
+    }
+
+    #start img {
+        max-width: 30%;
+    }
+
+    #start h1 {
+        font-size: 72px;
+    }
+
+    #start ul {
+        font-size: 28px;
+        gap: 10px;
+    }
+
+    section h3 {
+        font-size: 50px;
+    }
+
+    section {
+        font-size: 24px;
+    }
+
+}
