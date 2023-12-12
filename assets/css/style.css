@@ -16,6 +16,10 @@ h5 {
     margin-bottom: 0em;
 }
 
+img {
+    max-width: 100%;
+}
+
 header nav i {
     transform: scaleX(120%);
 }
@@ -23,6 +27,16 @@ header nav i {
 #start img {
     max-width: 60%;
 
+}
+
+.hr-star {
+    width: 80%;
+}
+
+.hr-star hr {
+    border: 2px solid;
+    width: 20%;
+    opacity: 1;
 }
 
 #start ul li:nth-child(2)::before,
